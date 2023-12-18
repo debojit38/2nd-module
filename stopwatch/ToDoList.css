@@ -1,0 +1,61 @@
+body{
+    background-color:aliceblue
+    font-family: 'Poppins', sans-serif;
+ }
+ .container{
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color:gray;
+    margin-left: 33%;
+    margin-top: 5px;
+    border-radius: 10px;
+ }
+ input{
+    width: 270px;
+    padding: 8px;
+    border: 2px solid rgb(6, 145, 145);
+    outline: none;
+    font-size: 19px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 10px;
+
+
+ }
+ button{
+    width: 60px;
+    height: 41px;
+    background-color: rgb(4, 29, 29);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    outline: none;
+    border-radius: 10px;
+    font-size: 19px;
+ }
+ .text ul{
+    position: relative;
+    background-color: rgb(136, 206, 206);
+    color: white;
+    font-size: 19px;
+    padding: 7px;
+    text-align: left;
+    border-radius: 10px;
+    
+ }
+ .text ul{
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+    transform: rotate(360seg);
+ }
+ .text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+ }
+
+

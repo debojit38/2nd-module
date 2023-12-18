@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>countdown timer app</title>
+    <link rel="stylesheet" href="countdown.css">
+    <img src="alarm-clock.jpg">
+</head>
+
+<body>
+    <!-- header -->
+
+    <h1>Multiple timers app</h1>
+
+    <div id="container">
+        <p id="para">Set Time:</p>
+
+        <div id="bar">
+
+            <lable class="tm" for="hours">
+                hh<input type="number" id="hours" min="0">
+            </lable>
+
+            <span>:</span>
+
+            <lable class="tm" for="minutes">
+                mm<input type="number" id="minutes" min="0">
+
+            </lable>
+
+            <span>:</span>
+
+            <label class="tm" for="seconds">
+                ss<input type="number" id="seconds" min="0">
+
+            </label>
+        </div>
+        <button id="startTimer">Set</button>
+
+    </div>
+
+    <!-- footer -->
+
+
+    <div id="footer">
+
+        <div id="heading">Current Timers</div>
+        <div>You have no timers currently!</div>
+    </div>
+    <script src="countdown.js"></script>
+</body>
+
+</html>

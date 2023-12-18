@@ -1,0 +1,42 @@
+ body{
+    background-color: black;
+}
+.container{
+    text-align: center;
+    margin-left: 27%;
+    width: 450px;
+    border: 2px solid white;
+    padding: 22px;
+
+} 
+.num{
+    color: white;
+    display: flex;
+    margin-left: 6%;
+    
+
+    
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 38px;
+    margin-left: 90px;
+}
+h2{
+    font-size: 60px;
+    margin-inline: 7px;
+}
+button{
+     width: 100px;
+    height: 35px;
+    background-color: rgb(158, 56, 56);
+    color: white;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    margin-right: 8px; 
+
+    
+}
